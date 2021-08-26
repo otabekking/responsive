@@ -1,0 +1,239 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.section {
+    padding: 30px 60px;
+
+    background: linear-gradient(-90deg, #eaf1ed, #bcebcf, #def0e6);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blanky__text {
+    color: #53B4A3;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Noto Sans JP";
+    line-height: 22px;
+}
+
+.phone__number {
+    color: #79BAAF;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 125px;
+    height: 35px;
+    background-color: #fefeff;
+    border: none;
+    font-family: "Noto Sans JP";
+    font-weight: bold;
+}
+
+.person__text {
+    font-family: "Noto Sans JP";
+    font-size: 14px;
+    line-height: 16px;
+
+
+}
+
+.person {
+    background-color: #fefeff;
+    width: 350px;
+    height: 44px;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 1px;
+}
+
+.person__price {
+    color: #79BAAF;
+    font-weight: bold;
+}
+
+.price__title {
+    font-family: "Noto Sans JP";
+}
+
+.accept {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accept22 {
+    font-family: "Noto Sans JP";
+    font-size: 25px;
+    line-height: 22px;
+    color: #79BAAF;
+    font-weight: bold;
+}
+
+.accept__tick {
+    width: 20px;
+    height: 18x;
+    position: relative;
+    left: 45px;
+    top: 25px;
+    background-color: #79BAAF;
+    border-radius: 50%;
+
+}
+
+.accept__img {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #bddfd9;
+}
+
+.accept__text {
+    font-family: "Noto Sans JP";
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.price__btn {
+    font-family: "Noto Sans JP";
+    color: #efefef;
+    font-size: 14px;
+    width: 200px;
+    height: 45px;
+    background-color: #79BAAF;
+    border: none;
+    border-radius: 30px;
+    transition: all.5s;
+}
+
+.price__btn:hover {
+    background-color: #fefeff;
+    color: #79BAAF;
+
+}
+
+.bank {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: #FAFCFE;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.bank__text {
+    font-family: "Noto Sans JP";
+    font-size: 15px;
+    color: #A8AEB4;
+}
+
+.bank__item {
+    display: block;
+    font-size: 10px;
+}
+
+.bank__last {
+    font-size: 13px;
+    line-height: 14px;
+    text-align: right;
+    color: #A8AEB4;
+}
+
+.price__inner {
+    background-color: #fefeff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.basic__bank-img {
+    width: 70px;
+    height: 20px;
+}
+
+.Resurs__bank-img {
+    width: 80px;
+}
+
+.under__text {
+    font-family: "Noto Sans JP";
+}
+
+.footer {
+    background-color: #010101;
+
+
+}
+
+.facebook__img {
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.linkedin__img {
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list {
+    list-style: none;
+    color: #fefeff;
+}
+
+.footer__social {
+    display: flex;
+    padding-right: 70px;
+}
+
+.footer__text {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Noto Sans JP";
+    line-height: 22px;
+    color: #fefeff;
+    margin-left: 40px;
+
+}
+
+.footer__list1 {
+    color: #fefeff;
+    list-style: none;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.list__item:nth-child(1) {
+    font-size: 18px;
+    line-height: 20px;
+    color: #fefeff;
+}
+
+.list__item {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #A8AEB4;
+}
+
+.footer__last {
+    display: flex;
+    justify-content: right;
+    margin-left: 768px;
+}
